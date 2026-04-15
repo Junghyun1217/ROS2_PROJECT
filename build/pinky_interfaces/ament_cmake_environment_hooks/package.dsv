@@ -1,4 +1,0 @@
-source;share/pinky_interfaces/local_setup.bash
-source;share/pinky_interfaces/local_setup.dsv
-source;share/pinky_interfaces/local_setup.sh
-source;share/pinky_interfaces/local_setup.zsh

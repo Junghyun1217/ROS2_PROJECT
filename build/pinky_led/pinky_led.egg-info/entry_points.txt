@@ -1,2 +1,0 @@
-[console_scripts]
-led_server = pinky_led.led_server:main

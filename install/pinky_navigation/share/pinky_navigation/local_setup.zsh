@@ -1,1 +1,0 @@
-/home/pinky/pinky_pro/build/pinky_navigation/ament_cmake_environment_hooks/local_setup.zsh

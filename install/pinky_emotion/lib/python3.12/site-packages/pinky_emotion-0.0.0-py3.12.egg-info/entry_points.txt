@@ -1,3 +1,0 @@
-[console_scripts]
-emotion_server = pinky_emotion.emotion_server:main
-pinky_emotion = pinky_emotion.pinky_emotion:main
