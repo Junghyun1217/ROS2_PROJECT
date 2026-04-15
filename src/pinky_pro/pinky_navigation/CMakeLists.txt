@@ -25,6 +25,7 @@ endif()
 
 install(PROGRAMS
   scripts/nav2_web_server.py
+  scripts/robot_nodes.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
