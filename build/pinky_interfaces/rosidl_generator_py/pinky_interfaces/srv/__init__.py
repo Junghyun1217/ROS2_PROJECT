@@ -1,0 +1,16 @@
+from pinky_interfaces.srv._emotion import Emotion  # noqa: F401
+from pinky_interfaces.srv._emotion import Emotion_Event  # noqa: F401
+from pinky_interfaces.srv._emotion import Emotion_Request  # noqa: F401
+from pinky_interfaces.srv._emotion import Emotion_Response  # noqa: F401
+from pinky_interfaces.srv._set_brightness import SetBrightness  # noqa: F401
+from pinky_interfaces.srv._set_brightness import SetBrightness_Event  # noqa: F401
+from pinky_interfaces.srv._set_brightness import SetBrightness_Request  # noqa: F401
+from pinky_interfaces.srv._set_brightness import SetBrightness_Response  # noqa: F401
+from pinky_interfaces.srv._set_lamp import SetLamp  # noqa: F401
+from pinky_interfaces.srv._set_lamp import SetLamp_Event  # noqa: F401
+from pinky_interfaces.srv._set_lamp import SetLamp_Request  # noqa: F401
+from pinky_interfaces.srv._set_lamp import SetLamp_Response  # noqa: F401
+from pinky_interfaces.srv._set_led import SetLed  # noqa: F401
+from pinky_interfaces.srv._set_led import SetLed_Event  # noqa: F401
+from pinky_interfaces.srv._set_led import SetLed_Request  # noqa: F401
+from pinky_interfaces.srv._set_led import SetLed_Response  # noqa: F401

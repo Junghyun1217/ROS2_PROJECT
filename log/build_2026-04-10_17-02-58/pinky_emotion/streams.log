@@ -1,0 +1,53 @@
+[9.630s] Invoking command in '/home/pinky/pinky_pro/src/pinky_pro/pinky_emotion': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pinky/pinky_pro/build/pinky_emotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pinky_emotion build --build-base /home/pinky/pinky_pro/build/pinky_emotion/build install --record /home/pinky/pinky_pro/build/pinky_emotion/install.log --single-version-externally-managed install_data
+[12.000s] running egg_info
+[12.001s] creating ../../../build/pinky_emotion/pinky_emotion.egg-info
+[12.193s] writing ../../../build/pinky_emotion/pinky_emotion.egg-info/PKG-INFO
+[12.194s] writing dependency_links to ../../../build/pinky_emotion/pinky_emotion.egg-info/dependency_links.txt
+[12.195s] writing entry points to ../../../build/pinky_emotion/pinky_emotion.egg-info/entry_points.txt
+[12.196s] writing requirements to ../../../build/pinky_emotion/pinky_emotion.egg-info/requires.txt
+[12.198s] writing top-level names to ../../../build/pinky_emotion/pinky_emotion.egg-info/top_level.txt
+[12.201s] writing manifest file '../../../build/pinky_emotion/pinky_emotion.egg-info/SOURCES.txt'
+[12.606s] reading manifest file '../../../build/pinky_emotion/pinky_emotion.egg-info/SOURCES.txt'
+[12.611s] writing manifest file '../../../build/pinky_emotion/pinky_emotion.egg-info/SOURCES.txt'
+[12.613s] running build
+[12.615s] running build_py
+[12.617s] creating /home/pinky/pinky_pro/build/pinky_emotion/build
+[12.618s] creating /home/pinky/pinky_pro/build/pinky_emotion/build/lib
+[12.619s] creating /home/pinky/pinky_pro/build/pinky_emotion/build/lib/pinky_emotion
+[12.622s] copying pinky_emotion/__init__.py -> /home/pinky/pinky_pro/build/pinky_emotion/build/lib/pinky_emotion
+[12.623s] copying pinky_emotion/pinky_lcd.py -> /home/pinky/pinky_pro/build/pinky_emotion/build/lib/pinky_emotion
+[12.624s] copying pinky_emotion/pinky_emotion.py -> /home/pinky/pinky_pro/build/pinky_emotion/build/lib/pinky_emotion
+[12.624s] copying pinky_emotion/emotion_server.py -> /home/pinky/pinky_pro/build/pinky_emotion/build/lib/pinky_emotion
+[12.625s] running install
+[12.654s] running install_lib
+[12.893s] creating /home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages/pinky_emotion
+[12.893s] copying /home/pinky/pinky_pro/build/pinky_emotion/build/lib/pinky_emotion/__init__.py -> /home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages/pinky_emotion
+[12.894s] copying /home/pinky/pinky_pro/build/pinky_emotion/build/lib/pinky_emotion/pinky_lcd.py -> /home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages/pinky_emotion
+[12.895s] copying /home/pinky/pinky_pro/build/pinky_emotion/build/lib/pinky_emotion/pinky_emotion.py -> /home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages/pinky_emotion
+[12.896s] copying /home/pinky/pinky_pro/build/pinky_emotion/build/lib/pinky_emotion/emotion_server.py -> /home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages/pinky_emotion
+[12.900s] byte-compiling /home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages/pinky_emotion/__init__.py to __init__.cpython-312.pyc
+[12.903s] byte-compiling /home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages/pinky_emotion/pinky_lcd.py to pinky_lcd.cpython-312.pyc
+[12.910s] byte-compiling /home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages/pinky_emotion/pinky_emotion.py to pinky_emotion.cpython-312.pyc
+[12.917s] byte-compiling /home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages/pinky_emotion/emotion_server.py to emotion_server.cpython-312.pyc
+[12.920s] running install_data
+[12.922s] creating /home/pinky/pinky_pro/install/pinky_emotion/share/ament_index
+[12.923s] creating /home/pinky/pinky_pro/install/pinky_emotion/share/ament_index/resource_index
+[12.925s] creating /home/pinky/pinky_pro/install/pinky_emotion/share/ament_index/resource_index/packages
+[12.926s] copying resource/pinky_emotion -> /home/pinky/pinky_pro/install/pinky_emotion/share/ament_index/resource_index/packages
+[12.927s] copying package.xml -> /home/pinky/pinky_pro/install/pinky_emotion/share/pinky_emotion
+[12.932s] creating /home/pinky/pinky_pro/install/pinky_emotion/share/pinky_emotion/emotion
+[12.933s] copying emotion/angry.gif -> /home/pinky/pinky_pro/install/pinky_emotion/share/pinky_emotion/emotion
+[12.940s] copying emotion/basic.gif -> /home/pinky/pinky_pro/install/pinky_emotion/share/pinky_emotion/emotion
+[12.996s] copying emotion/bored.gif -> /home/pinky/pinky_pro/install/pinky_emotion/share/pinky_emotion/emotion
+[13.022s] copying emotion/hello.gif -> /home/pinky/pinky_pro/install/pinky_emotion/share/pinky_emotion/emotion
+[13.043s] copying emotion/interest.gif -> /home/pinky/pinky_pro/install/pinky_emotion/share/pinky_emotion/emotion
+[13.072s] copying emotion/fun.gif -> /home/pinky/pinky_pro/install/pinky_emotion/share/pinky_emotion/emotion
+[13.090s] copying emotion/happy.gif -> /home/pinky/pinky_pro/install/pinky_emotion/share/pinky_emotion/emotion
+[13.108s] copying emotion/sad.gif -> /home/pinky/pinky_pro/install/pinky_emotion/share/pinky_emotion/emotion
+[13.140s] running install_egg_info
+[13.335s] Copying ../../../build/pinky_emotion/pinky_emotion.egg-info to /home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages/pinky_emotion-0.0.0-py3.12.egg-info
+[13.342s] running install_scripts
+[14.636s] Installing emotion_server script to /home/pinky/pinky_pro/install/pinky_emotion/lib/pinky_emotion
+[14.641s] Installing pinky_emotion script to /home/pinky/pinky_pro/install/pinky_emotion/lib/pinky_emotion
+[14.653s] writing list of installed files to '/home/pinky/pinky_pro/build/pinky_emotion/install.log'
+[14.959s] Invoked command in '/home/pinky/pinky_pro/src/pinky_pro/pinky_emotion' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pinky/pinky_pro/build/pinky_emotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pinky/pinky_pro/install/pinky_emotion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pinky_emotion build --build-base /home/pinky/pinky_pro/build/pinky_emotion/build install --record /home/pinky/pinky_pro/build/pinky_emotion/install.log --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pinky_interfaces__py",
+		"source" : "/home/pinky/pinky_pro/build/pinky_interfaces/pinky_interfaces__py"
+	}
+}

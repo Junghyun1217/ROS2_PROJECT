@@ -1,0 +1,38 @@
+running egg_info
+creating ../../../build/pinky_led/pinky_led.egg-info
+writing ../../../build/pinky_led/pinky_led.egg-info/PKG-INFO
+writing dependency_links to ../../../build/pinky_led/pinky_led.egg-info/dependency_links.txt
+writing entry points to ../../../build/pinky_led/pinky_led.egg-info/entry_points.txt
+writing requirements to ../../../build/pinky_led/pinky_led.egg-info/requires.txt
+writing top-level names to ../../../build/pinky_led/pinky_led.egg-info/top_level.txt
+writing manifest file '../../../build/pinky_led/pinky_led.egg-info/SOURCES.txt'
+reading manifest file '../../../build/pinky_led/pinky_led.egg-info/SOURCES.txt'
+writing manifest file '../../../build/pinky_led/pinky_led.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pinky/pinky_pro/build/pinky_led/build
+creating /home/pinky/pinky_pro/build/pinky_led/build/lib
+creating /home/pinky/pinky_pro/build/pinky_led/build/lib/pinky_led
+copying pinky_led/__init__.py -> /home/pinky/pinky_pro/build/pinky_led/build/lib/pinky_led
+copying pinky_led/led_server.py -> /home/pinky/pinky_pro/build/pinky_led/build/lib/pinky_led
+copying pinky_led/pinkyled.py -> /home/pinky/pinky_pro/build/pinky_led/build/lib/pinky_led
+running install
+running install_lib
+creating /home/pinky/pinky_pro/install/pinky_led/lib/python3.12/site-packages/pinky_led
+copying /home/pinky/pinky_pro/build/pinky_led/build/lib/pinky_led/__init__.py -> /home/pinky/pinky_pro/install/pinky_led/lib/python3.12/site-packages/pinky_led
+copying /home/pinky/pinky_pro/build/pinky_led/build/lib/pinky_led/led_server.py -> /home/pinky/pinky_pro/install/pinky_led/lib/python3.12/site-packages/pinky_led
+copying /home/pinky/pinky_pro/build/pinky_led/build/lib/pinky_led/pinkyled.py -> /home/pinky/pinky_pro/install/pinky_led/lib/python3.12/site-packages/pinky_led
+byte-compiling /home/pinky/pinky_pro/install/pinky_led/lib/python3.12/site-packages/pinky_led/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/pinky/pinky_pro/install/pinky_led/lib/python3.12/site-packages/pinky_led/led_server.py to led_server.cpython-312.pyc
+byte-compiling /home/pinky/pinky_pro/install/pinky_led/lib/python3.12/site-packages/pinky_led/pinkyled.py to pinkyled.cpython-312.pyc
+running install_data
+creating /home/pinky/pinky_pro/install/pinky_led/share/ament_index
+creating /home/pinky/pinky_pro/install/pinky_led/share/ament_index/resource_index
+creating /home/pinky/pinky_pro/install/pinky_led/share/ament_index/resource_index/packages
+copying resource/pinky_led -> /home/pinky/pinky_pro/install/pinky_led/share/ament_index/resource_index/packages
+copying package.xml -> /home/pinky/pinky_pro/install/pinky_led/share/pinky_led
+running install_egg_info
+Copying ../../../build/pinky_led/pinky_led.egg-info to /home/pinky/pinky_pro/install/pinky_led/lib/python3.12/site-packages/pinky_led-0.0.0-py3.12.egg-info
+running install_scripts
+Installing led_server script to /home/pinky/pinky_pro/install/pinky_led/lib/pinky_led
+writing list of installed files to '/home/pinky/pinky_pro/build/pinky_led/install.log'

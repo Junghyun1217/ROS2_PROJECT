@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pinky_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/emotion__type_support.cpp.o"
+  "CMakeFiles/pinky_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/emotion__type_support.cpp.o.d"
+  "CMakeFiles/pinky_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/set_brightness__type_support.cpp.o"
+  "CMakeFiles/pinky_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/set_brightness__type_support.cpp.o.d"
+  "CMakeFiles/pinky_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/set_lamp__type_support.cpp.o"
+  "CMakeFiles/pinky_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/set_lamp__type_support.cpp.o.d"
+  "CMakeFiles/pinky_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o"
+  "CMakeFiles/pinky_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o.d"
+  "libpinky_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libpinky_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/emotion__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/set_brightness__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/set_lamp__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/emotion__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/set_brightness__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/set_lamp__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/pinky_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/pinky_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

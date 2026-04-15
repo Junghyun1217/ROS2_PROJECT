@@ -1,0 +1,4 @@
+source;share/pinky_imu_bno055/local_setup.bash
+source;share/pinky_imu_bno055/local_setup.dsv
+source;share/pinky_imu_bno055/local_setup.sh
+source;share/pinky_imu_bno055/local_setup.zsh

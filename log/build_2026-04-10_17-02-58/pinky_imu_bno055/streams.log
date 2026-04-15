@@ -1,0 +1,65 @@
+[0.062s] Invoking command in '/home/pinky/pinky_pro/build/pinky_imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pinky/pinky_pro/src/pinky_pro/pinky_imu_bno055 -DCMAKE_INSTALL_PREFIX=/home/pinky/pinky_pro/install/pinky_imu_bno055
+[0.450s] -- The C compiler identification is GNU 13.3.0
+[0.882s] -- The CXX compiler identification is GNU 13.3.0
+[1.009s] -- Detecting C compiler ABI info
+[1.727s] -- Detecting C compiler ABI info - done
+[1.771s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.772s] -- Detecting C compile features
+[1.775s] -- Detecting C compile features - done
+[1.840s] -- Detecting CXX compiler ABI info
+[2.642s] -- Detecting CXX compiler ABI info - done
+[2.684s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.686s] -- Detecting CXX compile features
+[2.690s] -- Detecting CXX compile features - done
+[2.764s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.303s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.976s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[6.879s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.636s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.638s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.378s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[10.455s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[11.498s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[11.648s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[11.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.655s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[13.860s] -- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+[13.937s] -- Found realtime_tools: 3.10.1 (/opt/ros/jazzy/share/realtime_tools/cmake)
+[18.185s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[19.708s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.710s] -- Configured cppcheck include dirs: 
+[19.711s] -- Configured cppcheck exclude dirs and/or files: 
+[19.728s] -- Added test 'lint_cmake' to check CMake code style
+[19.744s] -- Added test 'uncrustify' to check C / C++ code style
+[19.744s] -- Configured uncrustify additional arguments: 
+[19.755s] -- Added test 'xmllint' to check XML markup files
+[19.785s] -- Configuring done (19.7s)
+[19.885s] -- Generating done (0.0s)
+[19.913s] -- Build files have been written to: /home/pinky/pinky_pro/build/pinky_imu_bno055
+[20.002s] Invoked command in '/home/pinky/pinky_pro/build/pinky_imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pinky/pinky_pro/src/pinky_pro/pinky_imu_bno055 -DCMAKE_INSTALL_PREFIX=/home/pinky/pinky_pro/install/pinky_imu_bno055
+[20.004s] Invoking command in '/home/pinky/pinky_pro/build/pinky_imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pinky/pinky_pro/build/pinky_imu_bno055 -- -j4 -l4
+[20.489s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_node.cpp.o[0m
+[59.144s] [100%] [32m[1mLinking CXX executable main_node[0m
+[62.431s] [100%] Built target main_node
+[62.619s] Invoked command in '/home/pinky/pinky_pro/build/pinky_imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pinky/pinky_pro/build/pinky_imu_bno055 -- -j4 -l4
+[62.639s] Invoking command in '/home/pinky/pinky_pro/build/pinky_imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pinky/pinky_pro/build/pinky_imu_bno055
+[62.793s] -- Install configuration: ""
+[62.798s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/lib/pinky_imu_bno055/main_node
+[62.815s] -- Set non-toolchain portion of runtime path of "/home/pinky/pinky_pro/install/pinky_imu_bno055/lib/pinky_imu_bno055/main_node" to ""
+[62.820s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/ament_index/resource_index/package_run_dependencies/pinky_imu_bno055
+[62.822s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/ament_index/resource_index/parent_prefix_path/pinky_imu_bno055
+[62.824s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/ament_prefix_path.sh
+[62.825s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/ament_prefix_path.dsv
+[62.826s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/path.sh
+[62.832s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/path.dsv
+[62.833s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.bash
+[62.835s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.sh
+[62.839s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.zsh
+[62.842s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.dsv
+[62.846s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/package.dsv
+[62.851s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/ament_index/resource_index/packages/pinky_imu_bno055
+[62.854s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/cmake/pinky_imu_bno055Config.cmake
+[62.857s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/cmake/pinky_imu_bno055Config-version.cmake
+[62.860s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/package.xml
+[62.880s] Invoked command in '/home/pinky/pinky_pro/build/pinky_imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pinky/pinky_pro/build/pinky_imu_bno055

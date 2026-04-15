@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+5d7a94f239e46278c619d477410a7a30 CMakeFiles/pinky_sensor_adc_uninstall

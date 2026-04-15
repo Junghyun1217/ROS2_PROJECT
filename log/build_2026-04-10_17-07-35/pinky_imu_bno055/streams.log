@@ -1,0 +1,22 @@
+[0.158s] Invoking command in '/home/pinky/pinky_pro/build/pinky_imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pinky/pinky_pro/build/pinky_imu_bno055 -- -j4 -l4
+[0.805s] [100%] Built target main_node
+[0.959s] Invoked command in '/home/pinky/pinky_pro/build/pinky_imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pinky/pinky_pro/build/pinky_imu_bno055 -- -j4 -l4
+[0.969s] Invoking command in '/home/pinky/pinky_pro/build/pinky_imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pinky/pinky_pro/build/pinky_imu_bno055
+[1.075s] -- Install configuration: ""
+[1.077s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/lib/pinky_imu_bno055/main_node
+[1.080s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/ament_index/resource_index/package_run_dependencies/pinky_imu_bno055
+[1.084s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/ament_index/resource_index/parent_prefix_path/pinky_imu_bno055
+[1.084s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/ament_prefix_path.sh
+[1.085s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/ament_prefix_path.dsv
+[1.093s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/path.sh
+[1.094s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/path.dsv
+[1.095s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.bash
+[1.095s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.sh
+[1.096s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.zsh
+[1.096s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.dsv
+[1.102s] -- Installing: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/package.dsv
+[1.103s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/ament_index/resource_index/packages/pinky_imu_bno055
+[1.103s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/cmake/pinky_imu_bno055Config.cmake
+[1.103s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/cmake/pinky_imu_bno055Config-version.cmake
+[1.104s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/package.xml
+[1.112s] Invoked command in '/home/pinky/pinky_pro/build/pinky_imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pinky/pinky_pro/build/pinky_imu_bno055

@@ -1,0 +1,9 @@
+{
+  "package_name": "pinky_interfaces",
+  "non_idl_tuples": [
+    "/home/pinky/pinky_pro/src/pinky_pro/pinky_interfaces:srv/SetLed.srv",
+    "/home/pinky/pinky_pro/src/pinky_pro/pinky_interfaces:srv/Emotion.srv",
+    "/home/pinky/pinky_pro/src/pinky_pro/pinky_interfaces:srv/SetBrightness.srv",
+    "/home/pinky/pinky_pro/src/pinky_pro/pinky_interfaces:srv/SetLamp.srv"
+  ]
+}

@@ -1,0 +1,221 @@
+[0.071s] Invoking command in '/home/pinky/pinky_pro/build/pinky_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pinky/pinky_pro/build/pinky_interfaces -- -j4 -l4
+[0.549s] [  1%] Built target pinky_interfaces__rosidl_generator_type_description
+[0.830s] [  3%] Built target pinky_interfaces__cpp
+[0.872s] [  3%] Built target ament_cmake_python_copy_pinky_interfaces
+[0.998s] [ 25%] Built target pinky_interfaces__rosidl_generator_c
+[1.411s] [ 34%] Built target pinky_interfaces__rosidl_typesupport_cpp
+[1.492s] [ 43%] Built target pinky_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.658s] [ 53%] Built target pinky_interfaces__rosidl_typesupport_fastrtps_c
+[1.933s] [ 62%] Built target pinky_interfaces__rosidl_typesupport_introspection_c
+[1.955s] [ 71%] Built target pinky_interfaces__rosidl_typesupport_c
+[2.148s] [ 81%] Built target pinky_interfaces__rosidl_typesupport_introspection_cpp
+[2.362s] [ 81%] Built target pinky_interfaces
+[2.606s] [ 82%] Built target pinky_interfaces__py
+[3.075s] [ 90%] Built target pinky_interfaces__rosidl_generator_py
+[3.426s] [ 93%] Built target pinky_interfaces_s__rosidl_typesupport_c
+[3.466s] [ 96%] Built target pinky_interfaces_s__rosidl_typesupport_fastrtps_c
+[3.526s] [100%] Built target pinky_interfaces_s__rosidl_typesupport_introspection_c
+[3.679s] running egg_info
+[3.952s] writing pinky_interfaces.egg-info/PKG-INFO
+[3.954s] writing dependency_links to pinky_interfaces.egg-info/dependency_links.txt
+[3.958s] writing top-level names to pinky_interfaces.egg-info/top_level.txt
+[4.663s] reading manifest file 'pinky_interfaces.egg-info/SOURCES.txt'
+[4.666s] writing manifest file 'pinky_interfaces.egg-info/SOURCES.txt'
+[4.884s] [100%] Built target ament_cmake_python_build_pinky_interfaces_egg
+[4.982s] Invoked command in '/home/pinky/pinky_pro/build/pinky_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pinky/pinky_pro/build/pinky_interfaces -- -j4 -l4
+[4.989s] Invoking command in '/home/pinky/pinky_pro/build/pinky_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pinky/pinky_pro/build/pinky_interfaces
+[5.066s] -- Install configuration: ""
+[5.069s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/ament_index/resource_index/rosidl_interfaces/pinky_interfaces
+[5.070s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/SetLed.json
+[5.073s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/Emotion.json
+[5.073s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/SetBrightness.json
+[5.074s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/SetLamp.json
+[5.077s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces
+[5.078s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/msg
+[5.079s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.079s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv
+[5.083s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/emotion.h
+[5.083s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/set_brightness.h
+[5.084s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/set_lamp.h
+[5.085s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/set_led.h
+[5.087s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail
+[5.088s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__type_support.h
+[5.089s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__struct.h
+[5.091s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__type_support.h
+[5.091s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__type_support.c
+[5.094s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__description.c
+[5.096s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__type_support.c
+[5.099s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__type_support.c
+[5.102s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__description.c
+[5.103s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__functions.c
+[5.105s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__functions.h
+[5.107s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__description.c
+[5.108s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__functions.h
+[5.110s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__type_support.h
+[5.111s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__struct.h
+[5.112s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__functions.c
+[5.119s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__functions.h
+[5.120s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__struct.h
+[5.120s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__type_support.c
+[5.123s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__description.c
+[5.123s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__type_support.h
+[5.124s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__functions.h
+[5.124s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__functions.c
+[5.128s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__functions.c
+[5.129s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__struct.h
+[5.129s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/environment/library_path.sh
+[5.130s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/environment/library_path.dsv
+[5.134s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/libpinky_interfaces__rosidl_generator_c.so
+[5.136s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces
+[5.137s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/msg
+[5.139s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.140s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv
+[5.142s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail
+[5.144s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__rosidl_typesupport_fastrtps_c.h
+[5.145s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__rosidl_typesupport_fastrtps_c.h
+[5.147s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__rosidl_typesupport_fastrtps_c.h
+[5.149s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h
+[5.153s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/libpinky_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.155s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces
+[5.156s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/msg
+[5.159s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.159s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv
+[5.162s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/set_lamp.hpp
+[5.163s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail
+[5.169s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__struct.hpp
+[5.172s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__struct.hpp
+[5.172s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__traits.hpp
+[5.173s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__builder.hpp
+[5.173s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__builder.hpp
+[5.174s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__struct.hpp
+[5.178s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__traits.hpp
+[5.179s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__struct.hpp
+[5.180s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__builder.hpp
+[5.180s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__traits.hpp
+[5.181s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__type_support.hpp
+[5.185s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__builder.hpp
+[5.186s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__type_support.hpp
+[5.187s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__type_support.hpp
+[5.187s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__traits.hpp
+[5.188s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__type_support.hpp
+[5.188s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/set_led.hpp
+[5.192s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/set_brightness.hpp
+[5.193s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/emotion.hpp
+[5.194s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces
+[5.194s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/msg
+[5.201s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.205s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv
+[5.206s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail
+[5.206s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp
+[5.207s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__rosidl_typesupport_fastrtps_cpp.hpp
+[5.208s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__rosidl_typesupport_fastrtps_cpp.hpp
+[5.209s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/dds_fastrtps
+[5.210s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__rosidl_typesupport_fastrtps_cpp.hpp
+[5.210s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/libpinky_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.211s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces
+[5.218s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/msg
+[5.219s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.219s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv
+[5.220s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail
+[5.225s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__type_support.c
+[5.225s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__type_support.c
+[5.226s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__type_support.c
+[5.227s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__rosidl_typesupport_introspection_c.h
+[5.227s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__rosidl_typesupport_introspection_c.h
+[5.231s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h
+[5.232s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__rosidl_typesupport_introspection_c.h
+[5.235s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__type_support.c
+[5.237s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/libpinky_interfaces__rosidl_typesupport_introspection_c.so
+[5.238s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/libpinky_interfaces__rosidl_typesupport_c.so
+[5.240s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces
+[5.241s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv
+[5.243s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail
+[5.245s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp
+[5.247s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__rosidl_typesupport_introspection_cpp.hpp
+[5.248s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__rosidl_typesupport_introspection_cpp.hpp
+[5.250s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_lamp__type_support.cpp
+[5.252s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_led__type_support.cpp
+[5.253s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__type_support.cpp
+[5.256s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/emotion__type_support.cpp
+[5.256s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/include/pinky_interfaces/pinky_interfaces/srv/detail/set_brightness__rosidl_typesupport_introspection_cpp.hpp
+[5.262s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/libpinky_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.264s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/libpinky_interfaces__rosidl_typesupport_cpp.so
+[5.268s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/environment/pythonpath.sh
+[5.268s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/environment/pythonpath.dsv
+[5.270s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces-0.0.0-py3.12.egg-info
+[5.272s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.274s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.277s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.283s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.283s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces
+[5.285s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/__init__.py
+[5.287s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/_pinky_interfaces_s.ep.rosidl_typesupport_c.c
+[5.288s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/pinky_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.290s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/_pinky_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.291s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/srv
+[5.293s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/srv/_set_lamp.py
+[5.294s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/srv/__init__.py
+[5.296s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/srv/_emotion.py
+[5.296s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/srv/_emotion_s.c
+[5.298s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/srv/_set_led.py
+[5.301s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/srv/_set_lamp_s.c
+[5.302s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/srv/_set_brightness.py
+[5.305s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/srv/_set_brightness_s.c
+[5.305s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/srv/_set_led_s.c
+[5.306s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/pinky_interfaces_s__rosidl_typesupport_c.so
+[5.306s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/_pinky_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.307s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/pinky_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.559s] Listing '/home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces'...
+[5.560s] Listing '/home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/srv'...
+[5.610s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/pinky_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.620s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/pinky_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.625s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/python3.12/site-packages/pinky_interfaces/pinky_interfaces_s__rosidl_typesupport_c.so
+[5.631s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/lib/libpinky_interfaces__rosidl_generator_py.so
+[5.637s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/SetLed.idl
+[5.643s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/Emotion.idl
+[5.648s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/SetBrightness.idl
+[5.649s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/SetLamp.idl
+[5.650s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/SetLed.srv
+[5.657s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/Emotion.srv
+[5.662s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/SetBrightness.srv
+[5.667s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/srv/SetLamp.srv
+[5.667s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/ament_index/resource_index/package_run_dependencies/pinky_interfaces
+[5.668s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/ament_index/resource_index/parent_prefix_path/pinky_interfaces
+[5.675s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/environment/ament_prefix_path.sh
+[5.683s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/environment/ament_prefix_path.dsv
+[5.687s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/environment/path.sh
+[5.692s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/environment/path.dsv
+[5.696s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/local_setup.bash
+[5.699s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/local_setup.sh
+[5.704s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/local_setup.zsh
+[5.708s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/local_setup.dsv
+[5.709s] -- Installing: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/package.dsv
+[5.710s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/ament_index/resource_index/packages/pinky_interfaces
+[5.718s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/export_pinky_interfaces__rosidl_generator_cExport.cmake
+[5.721s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/export_pinky_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.724s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/export_pinky_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.731s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/export_pinky_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.734s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/export_pinky_interfaces__rosidl_generator_cppExport.cmake
+[5.738s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/export_pinky_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.743s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/export_pinky_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.747s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/pinky_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.748s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/pinky_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.748s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/pinky_interfaces__rosidl_typesupport_cExport.cmake
+[5.755s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/pinky_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.759s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/pinky_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.765s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/pinky_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.769s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/pinky_interfaces__rosidl_typesupport_cppExport.cmake
+[5.775s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/pinky_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.776s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/export_pinky_interfaces__rosidl_generator_pyExport.cmake
+[5.776s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/export_pinky_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.777s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.777s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.783s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.783s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.784s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.784s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.788s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.789s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/pinky_interfacesConfig.cmake
+[5.789s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/cmake/pinky_interfacesConfig-version.cmake
+[5.790s] -- Up-to-date: /home/pinky/pinky_pro/install/pinky_interfaces/share/pinky_interfaces/package.xml
+[5.799s] Invoked command in '/home/pinky/pinky_pro/build/pinky_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pinky/pinky_pro/install/pinky_led:/home/pinky/pinky_pro/install/pinky_emotion:/home/pinky/pinky_pro/install/pinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pinky/pinky_pro/build/pinky_interfaces

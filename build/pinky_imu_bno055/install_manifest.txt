@@ -1,0 +1,16 @@
+/home/pinky/pinky_pro/install/pinky_imu_bno055/lib/pinky_imu_bno055/main_node
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/ament_index/resource_index/package_run_dependencies/pinky_imu_bno055
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/ament_index/resource_index/parent_prefix_path/pinky_imu_bno055
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/ament_prefix_path.sh
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/ament_prefix_path.dsv
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/path.sh
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/environment/path.dsv
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.bash
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.sh
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.zsh
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/local_setup.dsv
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/package.dsv
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/ament_index/resource_index/packages/pinky_imu_bno055
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/cmake/pinky_imu_bno055Config.cmake
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/cmake/pinky_imu_bno055Config-version.cmake
+/home/pinky/pinky_pro/install/pinky_imu_bno055/share/pinky_imu_bno055/package.xml

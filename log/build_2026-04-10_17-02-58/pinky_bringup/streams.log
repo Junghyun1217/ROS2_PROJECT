@@ -1,0 +1,51 @@
+[9.698s] Invoking command in '/home/pinky/pinky_pro/src/pinky_pro/pinky_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pinky/pinky_pro/build/pinky_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pinky_bringup build --build-base /home/pinky/pinky_pro/build/pinky_bringup/build install --record /home/pinky/pinky_pro/build/pinky_bringup/install.log --single-version-externally-managed install_data
+[12.114s] running egg_info
+[12.116s] creating ../../../build/pinky_bringup/pinky_bringup.egg-info
+[12.328s] writing ../../../build/pinky_bringup/pinky_bringup.egg-info/PKG-INFO
+[12.335s] writing dependency_links to ../../../build/pinky_bringup/pinky_bringup.egg-info/dependency_links.txt
+[12.337s] writing entry points to ../../../build/pinky_bringup/pinky_bringup.egg-info/entry_points.txt
+[12.339s] writing requirements to ../../../build/pinky_bringup/pinky_bringup.egg-info/requires.txt
+[12.341s] writing top-level names to ../../../build/pinky_bringup/pinky_bringup.egg-info/top_level.txt
+[12.344s] writing manifest file '../../../build/pinky_bringup/pinky_bringup.egg-info/SOURCES.txt'
+[12.807s] reading manifest file '../../../build/pinky_bringup/pinky_bringup.egg-info/SOURCES.txt'
+[12.811s] writing manifest file '../../../build/pinky_bringup/pinky_bringup.egg-info/SOURCES.txt'
+[12.814s] running build
+[12.815s] running build_py
+[12.817s] creating /home/pinky/pinky_pro/build/pinky_bringup/build
+[12.819s] creating /home/pinky/pinky_pro/build/pinky_bringup/build/lib
+[12.820s] creating /home/pinky/pinky_pro/build/pinky_bringup/build/lib/pinky_bringup
+[12.822s] copying pinky_bringup/__init__.py -> /home/pinky/pinky_pro/build/pinky_bringup/build/lib/pinky_bringup
+[12.826s] copying pinky_bringup/bringup.py -> /home/pinky/pinky_pro/build/pinky_bringup/build/lib/pinky_bringup
+[12.826s] copying pinky_bringup/battery_publisher.py -> /home/pinky/pinky_pro/build/pinky_bringup/build/lib/pinky_bringup
+[12.827s] copying pinky_bringup/dynamixel_driver.py -> /home/pinky/pinky_pro/build/pinky_bringup/build/lib/pinky_bringup
+[12.827s] copying pinky_bringup/pinky_battery.py -> /home/pinky/pinky_pro/build/pinky_bringup/build/lib/pinky_bringup
+[12.828s] running install
+[12.854s] running install_lib
+[13.087s] creating /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup
+[13.088s] copying /home/pinky/pinky_pro/build/pinky_bringup/build/lib/pinky_bringup/__init__.py -> /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup
+[13.090s] copying /home/pinky/pinky_pro/build/pinky_bringup/build/lib/pinky_bringup/bringup.py -> /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup
+[13.091s] copying /home/pinky/pinky_pro/build/pinky_bringup/build/lib/pinky_bringup/battery_publisher.py -> /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup
+[13.092s] copying /home/pinky/pinky_pro/build/pinky_bringup/build/lib/pinky_bringup/dynamixel_driver.py -> /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup
+[13.098s] copying /home/pinky/pinky_pro/build/pinky_bringup/build/lib/pinky_bringup/pinky_battery.py -> /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup
+[13.098s] byte-compiling /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup/__init__.py to __init__.cpython-312.pyc
+[13.103s] byte-compiling /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup/bringup.py to bringup.cpython-312.pyc
+[13.116s] byte-compiling /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup/battery_publisher.py to battery_publisher.cpython-312.pyc
+[13.120s] byte-compiling /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup/dynamixel_driver.py to dynamixel_driver.cpython-312.pyc
+[13.126s] byte-compiling /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup/pinky_battery.py to pinky_battery.cpython-312.pyc
+[13.130s] running install_data
+[13.130s] creating /home/pinky/pinky_pro/install/pinky_bringup/share/ament_index
+[13.131s] creating /home/pinky/pinky_pro/install/pinky_bringup/share/ament_index/resource_index
+[13.132s] creating /home/pinky/pinky_pro/install/pinky_bringup/share/ament_index/resource_index/packages
+[13.133s] copying resource/pinky_bringup -> /home/pinky/pinky_pro/install/pinky_bringup/share/ament_index/resource_index/packages
+[13.134s] copying package.xml -> /home/pinky/pinky_pro/install/pinky_bringup/share/pinky_bringup
+[13.135s] creating /home/pinky/pinky_pro/install/pinky_bringup/share/pinky_bringup/launch
+[13.136s] copying launch/bringup_robot.launch.xml -> /home/pinky/pinky_pro/install/pinky_bringup/share/pinky_bringup/launch
+[13.137s] creating /home/pinky/pinky_pro/install/pinky_bringup/share/pinky_bringup/config
+[13.137s] copying config/pinky_params.yaml -> /home/pinky/pinky_pro/install/pinky_bringup/share/pinky_bringup/config
+[13.138s] running install_egg_info
+[13.344s] Copying ../../../build/pinky_bringup/pinky_bringup.egg-info to /home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages/pinky_bringup-0.0.0-py3.12.egg-info
+[13.353s] running install_scripts
+[14.668s] Installing battery_publisher script to /home/pinky/pinky_pro/install/pinky_bringup/lib/pinky_bringup
+[14.668s] Installing bringup script to /home/pinky/pinky_pro/install/pinky_bringup/lib/pinky_bringup
+[14.673s] writing list of installed files to '/home/pinky/pinky_pro/build/pinky_bringup/install.log'
+[14.971s] Invoked command in '/home/pinky/pinky_pro/src/pinky_pro/pinky_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pinky/pinky_pro/build/pinky_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pinky/pinky_pro/install/pinky_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pinky_bringup build --build-base /home/pinky/pinky_pro/build/pinky_bringup/build install --record /home/pinky/pinky_pro/build/pinky_bringup/install.log --single-version-externally-managed install_data
