@@ -1,59 +1,36 @@
 #!/usr/bin/env python3
-"""
-Component: SShopy (sp) / FrontJet (fj) / WareJet (wj) ROS2 노드
-Role: 메인서버의 ROS2 Action 요청을 수신하고, 로봇 동작 수행 후 result 응답.
-"""
 import threading
 import rclpy
 from rclpy.node import Node
-from rclpy.action import ActionServer, GoalResponse, CancelResponse
+from rclpy.action import ActionServer, GoalResponse, CancelResponse, ActionClient
 from rclpy.action.server import ServerGoalHandle
 from nav2_msgs.action import NavigateToPose
-from rclpy.action import ActionClient
 from geometry_msgs.msg import PoseStamped
-from std_msgs.msg import Bool 
-import logging
-logger = logging.getLogger("robot_nodes")
-
-from dataclasses import dataclass
-from typing import Optional
-
-@dataclass
-class MoveGoal:
-    target_location: str
-
-@dataclass
-class MoveResult:
-    success: bool
-    message: str
+from std_msgs.msg import Bool
+from rclpy.executors import MultiThreadedExecutor
+from rclpy.callback_groups import ReentrantCallbackGroup
 
 class SShopyNode(Node):
     def __init__(self):
         super().__init__("sshopy_node")
 
-        # Nav2 Action Client
+        # ★ 핵심: 여러 콜백이 동시에 실행될 수 있도록 그룹 설정
+        self.callback_group = ReentrantCallbackGroup()
+
+        # Nav2 클라이언트 (목적지로 보낼 때 사용)
         self._nav2_client = ActionClient(
-            self,
-            NavigateToPose,
-            'navigate_to_pose'
-        )
+            self, NavigateToPose, 'navigate_to_pose', 
+            callback_group=self.callback_group)
 
-        # 적재 완료 신호 수신 토픽 (메인서버 → 핑키)
+        # 적재 완료 구독
         self._load_complete_sub = self.create_subscription(
-            Bool,
-            '/load_complete',
-            self._load_complete_callback,
-            10
-        )
+            Bool, '/load_complete', self._load_complete_callback, 10,
+            callback_group=self.callback_group)
 
-        # 도착 신호 발행 토픽 (핑키 → 메인서버)
-        self._arrived_pub = self.create_publisher(
-            Bool,
-            '/pinky/arrived',
-            10
-        )
+        # 도착 신호 발행
+        self._arrived_pub = self.create_publisher(Bool, '/pinky/arrived', 10)
 
-        # 좌표 딕셔너리
+        # 위치 정보
         self._locations = {
             "warejet": {
                 "x": 0.10835881471111715,
@@ -66,82 +43,79 @@ class SShopyNode(Node):
                 "y": 0.4737226911736648,
                 "z": -0.715750014555285,
                 "w": 0.6983565827455981
-            },
+            }
         }
 
-        self._load_complete = False
         self._load_event = threading.Event()
 
-        # Action Server 등록
+        # 메인 서버로부터 명령을 받을 액션 서버
         self._move_action_server = ActionServer(
-            self,
-            NavigateToPose,
-            "/sshopy/move",
+            self, NavigateToPose, "/sshopy/move",
             execute_callback=self.execute_move_callback,
             goal_callback=self.goal_callback,
             cancel_callback=self.cancel_callback,
+            callback_group=self.callback_group # 그룹 지정 필수
         )
 
-        self.get_logger().info("SShopy 노드 시작!")
+        self.get_logger().info("SShopy 노드 시작! (Multi-Threaded)")
 
     def goal_callback(self, goal_request) -> GoalResponse:
-        self.get_logger().info("이동 요청 수신")
+        self.get_logger().info("메인 서버로부터 이동 요청 수신")
         return GoalResponse.ACCEPT
 
-    def cancel_callback(self, goal_handle: ServerGoalHandle) -> CancelResponse:
-        self.get_logger().info("취소 요청 수신")
+    def cancel_callback(self, goal_handle) -> CancelResponse:
+        self.get_logger().info("이동 취소 요청 수신")
         return CancelResponse.ACCEPT
 
     def _load_complete_callback(self, msg: Bool):
-        if msg.data:
-            self.get_logger().info("적재 완료 신호 수신!")
-            self._load_complete = True
+        if msg.data and not self._load_event.is_set():  # 중복 방지
+            self.get_logger().info("적재 완료 신호 수신 (Event Set)")
             self._load_event.set()
 
     async def execute_move_callback(self, goal_handle: ServerGoalHandle):
-        self.get_logger().info("이동 시작!")
+        """액션 실행 메인 루프"""
+        self.get_logger().info("시나리오 시작!")
 
-        # 1단계 — 창고로 이동
-        self.get_logger().info("창고로 이동 중...")
-        success = await self._navigate_to("warejet")
+        # 1단계 — 입고존(frontjet)으로 이동
+        self.get_logger().info("1단계: 입고존으로 이동 중...")
+        success = await self._navigate_to("frontjet")
 
         if not success:
+            self.get_logger().error("입고존 이동 실패")
             goal_handle.abort()
-            return MoveResult(success=False, message="창고 이동 실패")
+            return NavigateToPose.Result()
 
         # 2단계 — 도착 신호 발행
-        self.get_logger().info("창고 도착! 메인서버에 신호 발송")
+        self.get_logger().info("입고존 도착! /pinky/arrived 신호 발송")
         arrived_msg = Bool()
         arrived_msg.data = True
         self._arrived_pub.publish(arrived_msg)
 
-        # 3단계 — 적재 완료 신호 대기
-        self.get_logger().info("적재 완료 신호 대기 중...")
-        self._load_complete = False
-        while not self._load_complete:
-            rclpy.spin_once(self, timeout_sec=0.5)
+        # 3단계 — 적재 완료 신호 대기 (Event Wait)
+        self.get_logger().info("3단계: /load_complete 신호 대기 중...")
+        self._load_event.clear()
+        # 주의: Event.wait()는 블로킹 함수이므로 별도 스레드에서 돌려야 안전함
+        self._load_event.wait() 
 
-        # 4단계 — 입구로 이동
-        self.get_logger().info("입구로 이동 중...")
-        success = await self._navigate_to("frontjet")
+        # 4단계 — 창고(warejet)로 이동
+        self.get_logger().info("4단계: 창고로 귀환 중...")
+        success = await self._navigate_to("warejet")
 
         if not success:
+            self.get_logger().error("창고 이동 실패")
             goal_handle.abort()
-            return MoveResult(success=False, message="입구 이동 실패")
+            return NavigateToPose.Result()
 
-        # 5단계 — 완료
-        self.get_logger().info("입구 도착 완료!")
+        self.get_logger().info("모든 시나리오 완료!")
         goal_handle.succeed()
-        return MoveResult(success=True, message="전체 동작 완료")
+        return NavigateToPose.Result()
 
     async def _navigate_to(self, target_location: str) -> bool:
+        """Nav2에 목표 Pose를 전달하고 결과를 기다림"""
         if target_location not in self._locations:
-            self.get_logger().error(f"알 수 없는 위치: {target_location}")
             return False
 
         loc = self._locations[target_location]
-
-        # Nav2 goal 생성
         goal_msg = NavigateToPose.Goal()
         goal_msg.pose = PoseStamped()
         goal_msg.pose.header.frame_id = 'map'
@@ -151,34 +125,39 @@ class SShopyNode(Node):
         goal_msg.pose.pose.orientation.z = loc["z"]
         goal_msg.pose.pose.orientation.w = loc["w"]
 
-        # Nav2 대기
+        # 서버 대기
         self._nav2_client.wait_for_server()
+        
+        # 비동기 전송
+        send_goal_future = self._nav2_client.send_goal_async(goal_msg)
+        goal_handle = await send_goal_future
 
-        # goal 전송
-        send_goal_future = await self._nav2_client.send_goal_async(goal_msg)
-
-        if not send_goal_future.accepted:
-            self.get_logger().error("Nav2 goal 거절됨")
+        if not goal_handle.accepted:
+            self.get_logger().info(f"{target_location} 목표 거절됨")
             return False
 
-        # 완료 대기
-        result_future = await send_goal_future.get_result_async()
+        self.get_logger().info(f"{target_location} 목표 수락됨")
+        result_future = goal_handle.get_result_async()
+        result = await result_future
 
-        if result_future.status == 4:  # SUCCEEDED
-            self.get_logger().info(f"{target_location} 도착 완료!")
-            return True
-        else:
-            self.get_logger().error(f"{target_location} 이동 실패")
-            return False
+        # status 4는 SUCCEEDED를 의미
+        return result.status == 4
 
-
-def run_sshopy():
-    rclpy.init()
+def main(args=None):
+    rclpy.init(args=args)
     node = SShopyNode()
-    rclpy.spin(node)
-    node.destroy_node()
-    rclpy.shutdown()
+    
+    # ★ 핵심: 단일 스레드가 아닌 멀티 스레드 실행기 사용
+    executor = MultiThreadedExecutor()
+    executor.add_node(node)
 
+    try:
+        executor.spin()
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
 
 if __name__ == '__main__':
-    run_sshopy()
+    main()
