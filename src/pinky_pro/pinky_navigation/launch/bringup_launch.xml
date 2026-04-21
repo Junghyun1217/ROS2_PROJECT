@@ -11,7 +11,7 @@
     <arg name="use_composition" default="True"/>
     <arg name="use_respawn" default="False"/>
     <arg name="log_level" default="info"/>
-    <arg name="lifecycle_nodes_local" default="['map_server', 'amcl']"/>
+    <arg name="lifecycle_nodes_local" default="['map_server', 'amcl', 'filter_mask_server', 'costmap_filter_info_server']"/>
     <arg name="lifecycle_nodes_nav" default="['controller_server',
                        'planner_server',
                        'behavior_server',
@@ -29,6 +29,24 @@
             
             <remap from="/tf" to="tf"/>
             <remap from="/tf_static" to="tf_static"/>
+        </node>
+
+        <!-- ★ 추가: keepout filter mask 서버 -->
+        <node pkg="nav2_map_server" exec="map_server" name="filter_mask_server" output="screen">
+            <param name="yaml_filename" value="/home/pinky/pinky_pro/src/pinky_pro/pinky_navigation/maps/keepout_mask.yaml"/>
+            <param name="topic_name" value="keepout_filter_mask"/>
+            <param name="frame_id" value="map"/>
+            <param name="use_sim_time" value="$(var use_sim_time)"/>
+        </node>
+
+        <!-- ★ 추가: costmap filter info 서버 -->
+        <node pkg="nav2_map_server" exec="costmap_filter_info_server" name="costmap_filter_info_server" output="screen">
+            <param name="type" value="0"/>
+            <param name="filter_info_topic" value="/costmap_filter_info"/>
+            <param name="mask_topic" value="/keepout_filter_mask"/>
+            <param name="base" value="0.0"/>
+            <param name="multiplier" value="1.0"/>
+            <param name="use_sim_time" value="$(var use_sim_time)"/>
         </node>
 
         <include file="$(find-pkg-share pinky_navigation)/launch/localization_launch.xml">

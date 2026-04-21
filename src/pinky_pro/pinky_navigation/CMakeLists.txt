@@ -35,7 +35,7 @@ install(FILES
 )
 
 install(
-  DIRECTORY launch params map rviz
+  DIRECTORY launch params maps rviz
   DESTINATION share/${PROJECT_NAME}
   )
 
